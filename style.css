@@ -1,0 +1,95 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { background-color: #eaeaea;}
+
+header {
+    height: 10px;
+    background-image: url(https://media.istockphoto.com/id/1067328162/pt/vetorial/classic-retro-background-diagonal-stripes-red-blue-color-vector-color-stripes-flag-airmail.jpg?s=170667a&w=0&k=20&c=bYVXKcmtsoCDMUeufpLdxe5l3JqZaV94Q1bCvyxyZJ4=);
+    background-repeat: repeat-y;
+}
+#logo {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+main {
+    background-color: white;
+    height: 83vh; width: 80vh;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sub-title {
+    margin: 20px;
+    color: grey;
+    font-size: 15px;
+}
+
+#description {
+    margin: 30px;
+    color: rgb(88, 86, 86);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 310px;
+}
+
+input, button {
+    margin: 5px; 
+    width: 300px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+input {
+    color: rgb(45, 45, 45);
+    background-color: rgba(235, 233, 233, 0.881);
+    border-color: gray;
+}
+
+button {
+    background-color: rgb(101, 162, 255);
+    border-color: rgb(101, 162, 255);
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(57, 119, 212);
+}
+
+#anúncio {
+    margin: 50px;
+    color: gray;
+    font-size: 13px;
+}
+
+footer {
+    background-color: rgb(101, 162, 255);
+    color: white;
+    height: 10%;
+    font-size: 13px;
+    line-height: 50px;
+    
+}
+
+

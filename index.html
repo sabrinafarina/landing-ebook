@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>FLATPACK</title>
+
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Promoção diária de sorteio de livros"/>
+        <meta name="author" content="Sabrina Farina"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+        <link rel="stylesheet" href="CSS/style.css"/>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="JS/script.js"></script>
+    </head>
+
+    <body>
+
+        <main>
+
+            <header></header>
+            
+            <p id="logo"><strong>FLAT</strong>PACK</p>
+            <h1>Promoção livro do dia</h1>
+            <p id="sub-title">Se inscreva para concorrer ao sorteio do livro do dia de hoje.</p>
+            <p id="description">Livro de hoje: <strong id="title">O LIVRO</strong>, de <span id=author>AUTOR.</p>
+
+        <div class="flex-container">
+            <form name="assinar" id="assinar" method="post" action="#">
+
+                <div class="input">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui"/>
+                </div>
+
+                <div class="button">
+                <button>Assine agora!</button>
+                </div>
+
+            </form>
+        </div>
+            <p id="resposta"></p>
+
+            <p id="anúncio">* Todo dia um livro diferente em promoção!</p>
+
+        <footer>Todos os direitos reservados © 2023 Instituto Evoluir</footer>
+        </main>
+
+    </body>
+
+</html>
